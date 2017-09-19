@@ -1,6 +1,6 @@
 ---
 layout: default
-home-title: H2O Theme For Jekyll
+home-title: bmannarino.io
 description: 或许是最漂亮的Jekyll主题
 ---
 
@@ -8,7 +8,7 @@ description: 或许是最漂亮的Jekyll主题
 
 <div class="g-banner home-banner {{ site.theme-color | prepend: 'banner-theme-' }}" data-theme="{{ site.theme-color }}">
     <h2>{{ page.home-title }}</h2>
-    <h3>{{ page.description }}</h3>
+    <h3>"I'm not superstitious... I'm a little stitious"</h3>
     {% if page.header-img %}
     <img class="header-img" src="{{ site.baseurl }}{{ page.header-img }}" alt="">
     {% endif %}
@@ -61,7 +61,21 @@ description: 或许是最漂亮的Jekyll主题
                 </div>
                 <div class="author-name" rel="author">{{ site.author }}</div>
                 <div class="bio">
-                    <p>{{ site.bio }}</p>
+                    <p>Former child, amateur traveler. Interests include technology, beer, mountains, and the Oxford comma.</p>
+                    <ul class="social-links">
+                        <li>
+                            <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i>Madrid, Spain
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/brentmannarino">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn
+                            </a>
+                        <li>
+                            <a href="https://stackoverflow.com/users/1359197/mannfromreno">
+                                <i class="fa fa-fw fa-stack-overflow" aria-hidden="true"></i>Stackoverflow
+                            </a>
+                        </li>
+                    </ul>
                 </div>
                 {% if site.sns.size > 0 %}
                 <ul id="sns-links" class="sns-links">
