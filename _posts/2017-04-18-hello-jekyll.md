@@ -4,7 +4,7 @@ title: 'Create your own cryptocurrency using Ethereum DApps'
 subtitle: 'Intro about how to create a simple cryptocurrency using Ethereum DApps'
 date: 2017-09-17
 categories: ethereum
-cover: '../images/posts/201709/decentralize.jpg'
+cover: 'https://media.coindesk.com/uploads/2016/02/Screen-Shot-2016-02-24-at-10.42.13-AM-e1456328600212.png'
 tags: ethereum cryptocurrency blockchain
 ---
 
