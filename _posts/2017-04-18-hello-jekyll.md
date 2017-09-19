@@ -1,11 +1,13 @@
 ---
 layout: post
-title: 'Hello Jekyll'
-date: 2017-04-18
-author: Jekyll
-cover: 'http://on2171g4d.bkt.clouddn.com/jekyll-banner.png'
-tags: jekyll
+title: 'Create your own cryptocurrency using Ethereum DApss'
+subtitle: 'Intro about how to create a simple cryptocurrency using Ethereum DApps'
+date: 2017-09-17
+categories: ethereum
+cover: '../images/posts/201709/decentralize.jpg'
+tags: ethereum cryptocurrency blockchain
 ---
+
 
 > Transform your plain text into static websites and blogs.
 

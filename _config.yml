@@ -16,7 +16,7 @@ bio: 'Former child, amateur traveler. Interests include technology, beer, mounta
 avatar: 'assets/img/profile.png'
 
 # Search
-search: true
+search: false
 
 # Night mode
 nightMode: true
