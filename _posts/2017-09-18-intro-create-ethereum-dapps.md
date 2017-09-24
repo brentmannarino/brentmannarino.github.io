@@ -28,9 +28,11 @@ var web3 = new Web3('http://localhost:8545');
 web3.eth.getAccounts().then(console.log);
 {% endhighlight %}
 
+This should return an array of ethereum addresses that testrpc is serving up to us. These are 40 hex characters that correspond to an individual's public key.
+
 ![web3_getAccounts]({{site.url}}/assets/img/2_web3_getAccounts.PNG)
 
-This should return an array of ethereum addresses that testrpc is serving up to us. These are 40 hex characters that correspond to an individual's public key.
+
 
 
 
