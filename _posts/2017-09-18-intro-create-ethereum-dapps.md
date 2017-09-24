@@ -17,3 +17,14 @@ I'm currently running this on a fresh Windows 10 machine. I followed Prateesh's 
 Once ethereumjs-testrpc and web3 modules are installed we can spin up the testrpc chain: 
 
 ![testrpc_run]({{ site.url }}/assets/img/1_testrpc_run.PNG)
+
+So now that we have our test accounts up and running, each with 100 ether let's try to get some info about these accounts by using the Ethereum's JavaScript API - web3
+
+{% highlight powershell %}
+var Web3 = require('web3');
+var web3 = new Web3('http://localhost:8545');
+web3.eth.getAccounts().then(console.log);
+{% endhighlight %}
+
+
+
