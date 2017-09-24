@@ -18,13 +18,19 @@ Once ethereumjs-testrpc and web3 modules are installed we can spin up the testrp
 
 ![testrpc_run]({{ site.url }}/assets/img/1_testrpc_run.PNG)
 
-So now that we have our test accounts up and running, each with 100 ether let's try to get some info about these accounts by using the Ethereum's JavaScript API - web3
+We want to keep this powershell window open.
+
+So now that we have our test accounts up and running, each with 100 ether let's try to get some info about these accounts by using the Ethereum's JavaScript API - web3. Open up new powershell window, run `node` then the following commands:
 
 {% highlight powershell %}
 var Web3 = require('web3');
 var web3 = new Web3('http://localhost:8545');
 web3.eth.getAccounts().then(console.log);
 {% endhighlight %}
+
+![web3_getAccounts]({{site.url}}/assets/img/2_web3_getAccounts.PNG)
+
+This should return an array of ethereum addresses that testrpc is serving up to us. These are 40 hex characters that correspond to an individual's public key.
 
 
 
