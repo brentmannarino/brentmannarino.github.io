@@ -16,4 +16,4 @@ I'm currently running this on a fresh Windows 10 machine. I followed Prateesh's 
 
 Once ethereumjs-testrpc and web3 modules are installed we can spin up the testrpc chain: 
 
-![testrpc_run]({{ site.url }}/images/posts/201709/1_testrpc_run.png)
+![testrpc_run]({{ site.url }}/assets/img/1_testrpc_run.png)
