@@ -1,6 +1,6 @@
 # Site settings 配置站点
 title: 'Bmannarino Blogging'
-description: 'Stream of conciousness from me'
+description: 'Stream of consciousness from me, Brent Mannarino. A blog with a focus on technology that I find interesting, travel, craft beer, mountains, and maybe more?'
 keyword: 'javascript, angularjs, blockchain, development, c#'
 url: 'https://brentmannarino.github.io' # your host
 baseurl: '/'
