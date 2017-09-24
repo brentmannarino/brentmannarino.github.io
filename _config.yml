@@ -52,4 +52,6 @@ kramdown:
 RSS: false
 
 # Plugins
-gems: [jekyll-paginate]
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
