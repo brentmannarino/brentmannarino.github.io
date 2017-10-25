@@ -19,7 +19,7 @@ Our decentralized app will be a simple question & upvoting system with an Angula
 ## Setting up
 
 #### MetaMask
-To get started we will need to install a few things. First we want to install [MetaMask](https://metamask.io/) for Chrome. It's an extension that allows you to run decentralized apps (DApps) in Chrome, it also organizes your Ethereum accounts and allows you to make & sign Ether based transactions right in your browser.
+To get started we will need to install a few things. First we want to install [MetaMask](https://metamask.io/) for Chrome. It's an extension that allows you to run decentralized apps in Chrome, it also organizes your Ethereum accounts and allows you to make & sign Ether based transactions right in your browser.
 
 Once you have installed MetaMask, created a password we'll need to create a few test accounts. By default there should be an account already created for you called "Account 1" we can use this as one of our test accounts, hit the ellipsis and export private key. 
 
