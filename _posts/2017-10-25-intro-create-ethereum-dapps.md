@@ -2,7 +2,7 @@
 layout: post
 title: 'Create a Decentralized App (DApp) with Ethereum Smart Contracts'
 subtitle: 'Part 1 - Setting up a test Ethereum blockchain, test accounts, deploying Solidity code to the blockchain'
-date: 2017-10-24
+date: 2017-10-25
 categories: ethereum
 cover: 'https://media.coindesk.com/uploads/2016/02/Screen-Shot-2016-02-24-at-10.42.13-AM-e1456328600212.png'
 tags: ethereum cryptocurrency blockchain angular ipfs
@@ -22,7 +22,7 @@ To get started we will need to install a few things. First we want to install [M
 
 Once you have installed MetaMask, created a password we'll need to create a few test accounts. By default there should be an account already created for you called "Account 1" we can use this as one of our test accounts, hit the ellipsis and export private key. 
 
-![metamask_install]({{ site.baseurl}}/assets/img/20171024/1-Metamaskprivate.png)
+![metamask_install]({{ site.baseurl}}/assets/img/20171024/1-Metamaskprivate.PNG)
 
 
 Copy the private key to Notepad. It's important to never reveal private keys and always double check the site that may be asking for them, in this case we are just using test accounts without any real Ethereum tied to them but it's good practice to be mindful to keep these safe. I've renamed my Account1 on MetaMask, you can do so by hovering over the Account1 name and clicking `edit`. Now we need to setup another account in MetaMask, so click the top orange button with the little guy and the refresh symbol -> Create Account. Do the same thing we did with Account1, and export & copy the private key to Notepad and rename the Account 2. 
@@ -41,13 +41,13 @@ Once testrpc is installed we can start the testrpc blockchain. Navigate to your 
 
 Substituting `privatekeyforaccount1` and `privatekeyforaccount2` with the actual private key values you copied earlier. The second argument is the balance we want to give to these accounts in Wei (the lowest denomination of Ether, like satoshi for Bitcoin) Easy way to convert between Wei and Ether here: [Ether converter](https://etherconverter.online/) 
 
-![getaccounts]({{ site.baseurl }}assets/img/20171024/3_testrpc_start.PNG)
+![getaccounts]({{ site.baseurl }}/assets/img/20171024/3_testrpc_start.PNG)
 **Note: Make sure to keep this Powershell window open as it's running our testrpc blockchain, if you close it you'll need to run the above command again.**
 
 So now both of our test accounts should be populated with 100 Ether each. In order to confirm this go back to Chrome and open the MetaMask extension. You may need to switch between `Main Ethereum Network` and `Localhost 8545` to see the account balance be populated. Once we see the 100 ETH is in our account MetaMask is now talking to our local testrpc chain. 
 
-![metamask_localhost]({{ site.baseurl}}assets/img/20171024/4-metamask switch network.PNG)
-![metamask_flush_w_ether]({{ site.baseurl}}assets/img/20171024/5-metamask acct balance.PNG)
+![metamask_localhost]({{ site.baseurl}}/assets/img/20171024/4-metamask switch network.PNG)
+![metamask_flush_w_ether]({{ site.baseurl}}/assets/img/20171024/5-metamask acct balance.PNG)
 
 ## Developing our Smart Contracts
 
@@ -56,7 +56,7 @@ ow we've got our Ethereum test accounts and test environment running we can deve
 
 I like the comparison between a smart contract and a vending machine; a vending machine that resides in a specific area carries out a specific set of instructions given the input, I give the machine $1.50 and it returns me a drink - hopefully no more and no less. 
 
-![vending_machine]({{ site.baseurl }}assets/img/20171024/vendingmachine.jpg)
+![vending_machine]({{ site.baseurl }}/assets/img/20171024/vendingmachine.jpg)
 
 A smart contract operates the same way, I navigate to the area (address of the contract), give it input and it either runs a computation or returns me output, no more and no less. 
 
@@ -164,13 +164,13 @@ EthUpVotingContract.deploy({data: byteCode}).send({
 In the line `from: 0x18caf47eae63e35e7266890f8b5b4bb83a28e915x',` fill in the public key of one of your MetaMask accounts.
 
 Execute this Node script in a new terminal window. If the code ran successfully and deployed our smart contract we should get the following output:
-![deploy_output]({{ site.baseurl }}assets/img/20171024/6-compile-deploy.PNG)
+![deploy_output]({{ site.baseurl }}/assets/img/20171024/6-compile-deploy.PNG)
 
 We will want to keep track of the `ABI definition` and the `contract address` that were outputted for Part 2.
 
 Ho-kay, so now we've successfully deployed our contract to our testrpc blockchain, as I said before this contract resides at an address and that's how you will interact with it. A little note about our deploy script, it was sent as a transaction from an Ethereum account (in this case my MetaMask account I first set up), it also was sent with `gas`, this gas is a payment in the form of Ether for creating a transaction and including it in the next block. Gas is used for every transaction or interaction a DApp has with a smart contract, if the gas used is too low then the transaction will fail, if it is too high the gas that was used will be subtracted and you will be reimbursed the remainder. Gas for Ethereum is a hot topic of debate and it will be interesting to see how gas prices fluctuate with Ethereum being more widely used.
 
-![imonline]({{ site.baseurl }}assets/img/20171024/imonline.jpg)
+![imonline]({{ site.baseurl }}/assets/img/20171024/imonline.jpg)
 #### Conclusion
 That's all for Part 1, we've set up our test blockchain, our test accounts and successfully deployed a smart contract. In Part 2 I will get more into how we could use IPFS with our smart contract, how an Angular app can interact with our Node.js back-end and retrieve/send data to our smart contract.
 
