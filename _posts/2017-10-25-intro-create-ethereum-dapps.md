@@ -10,7 +10,7 @@ tags: ethereum cryptocurrency blockchain angular ipfs
 
 ### What is a Decentralized App (DApp)?
 
-[Ethereum](https://ethereum.org) is a "blockchain with a built-in fully fledged Turing-complete programming language that can be used to create "contracts" that can be used to encode arbitrary state transition functions", [Ethereum White Paper](https://github.com/ethereum/wiki/wiki/White-Paper). If you're unfamiliar with Ethereum I would recommend reading through the Ethereum white paper to start. There are many resources available online, a few that I found helpful: [what is blockchain technology](https://blockgeeks.com/guides/what-is-blockchain-technology/), and a good book focusing on Bitcoin specifically: [Mastering Bitcoin](https://www.amazon.com/Mastering-Bitcoin-Unlocking-Digital-Cryptocurrencies/dp/1449374042).
+[Ethereum](https://ethereum.org) is a "blockchain with a built-in fully fledged Turing-complete programming language that can be used to create 'contracts' that can be used to encode arbitrary state transition functions", [Ethereum White Paper](https://github.com/ethereum/wiki/wiki/White-Paper). If you're unfamiliar with Ethereum I would recommend reading through the Ethereum white paper to start. There are many resources available online, a few that I found helpful: [what is blockchain technology](https://blockgeeks.com/guides/what-is-blockchain-technology/), and a good book focusing on Bitcoin specifically: [Mastering Bitcoin](https://www.amazon.com/Mastering-Bitcoin-Unlocking-Digital-Cryptocurrencies/dp/1449374042).
 
 ![dapp_share]({{ site.baseurl }}/assets/img/20171024/social_share.jpg)
 
