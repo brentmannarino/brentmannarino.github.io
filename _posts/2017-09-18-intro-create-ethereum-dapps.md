@@ -22,7 +22,7 @@ To get started we will need to install a few things. First we want to install [M
 
 Once you have installed MetaMask, created a password we'll need to create a few test accounts. By default there should be an account already created for you called "Account 1" we can use this as one of our test accounts, hit the ellipsis and export private key. 
 
-![metamask_install]({{ site.baseurl}}assets/img/20171024/1-Metamaskprivate.png)
+![metamask_install]({{ site.baseurl}}/assets/img/20171024/1-Metamaskprivate.png)
 
 
 Copy the private key to Notepad. It's important to never reveal private keys and always double check the site that may be asking for them, in this case we are just using test accounts without any real Ethereum tied to them but it's good practice to be mindful to keep these safe. I've renamed my Account1 on MetaMask, you can do so by hovering over the Account1 name and clicking `edit`. Now we need to setup another account in MetaMask, so click the top orange button with the little guy and the refresh symbol -> Create Account. Do the same thing we did with Account1, and export & copy the private key to Notepad and rename the Account 2. 
