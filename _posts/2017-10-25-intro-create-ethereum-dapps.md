@@ -41,7 +41,7 @@ Once testrpc is installed we can start the testrpc blockchain. Navigate to your 
 
 Substituting `privatekeyforaccount1` and `privatekeyforaccount2` with the actual private key values you copied earlier. The second argument is the balance we want to give to these accounts in Wei (the lowest denomination of Ether, like satoshi for Bitcoin) Easy way to convert between Wei and Ether here: [Ether converter](https://etherconverter.online/) 
 
-![getaccounts]({{ site.baseurl }}/assets/img/20171024/3_testrpc_start.PNG)
+![getaccounts]({{ site.baseurl }}/assets/img/20171024/3_testrpc_start.png)
 **Note: Make sure to keep this Powershell window open as it's running our testrpc blockchain, if you close it you'll need to run the above command again.**
 
 So now both of our test accounts should be populated with 100 Ether each. In order to confirm this go back to Chrome and open the MetaMask extension. You may need to switch between `Main Ethereum Network` and `Localhost 8545` to see the account balance be populated. Once we see the 100 ETH is in our account MetaMask is now talking to our local testrpc chain. 
