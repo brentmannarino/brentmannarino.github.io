@@ -50,6 +50,7 @@ kramdown:
   input: GFM
 
 RSS: false
+permalink: pretty
 
 # Plugins
 plugins:
