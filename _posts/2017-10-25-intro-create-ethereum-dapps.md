@@ -12,7 +12,7 @@ tags: ethereum cryptocurrency blockchain angular ipfs
 
 [Ethereum](https://ethereum.org) is a "blockchain with a built-in fully fledged Turing-complete programming language that can be used to create "contracts" that can be used to encode arbitrary state transition functions", [Ethereum White Paper](https://github.com/ethereum/wiki/wiki/White-Paper). If you're unfamiliar with Ethereum I would recommend reading through the Ethereum white paper to start. There are many resources available online, a few that I found helpful: [what is blockchain technology](https://blockgeeks.com/guides/what-is-blockchain-technology/), and a good book focusing on Bitcoin specifically: [Mastering Bitcoin](https://www.amazon.com/Mastering-Bitcoin-Unlocking-Digital-Cryptocurrencies/dp/1449374042).
 
-![dapp_share]({{ site.baseurl }}/assets/img/social_share.jpg)
+![dapp_share]({{ site.baseurl }}/assets/img/20171024/social_share.jpg)
 
 Our decentralized app will be a simple question & upvoting system with an Angular front-end, Node.js back-end, IPFS for distributed storage, and a smart contract running on our test Ethereum blockchain.
 
